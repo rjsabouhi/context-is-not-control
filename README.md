@@ -1,10 +1,11 @@
 # Context Is Not Control
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20126173.svg)](https://doi.org/10.5281/zenodo.20126173)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 This repository contains the public working manuscript and cleaned replication artifacts for:
 
-**Context Is Not Control: Source-Boundary Failures in LLM Evidence Use**
-
-The paper studies a source-boundary failure mode in which language models treat contextually present but inadmissible text as answer-bearing evidence unless the task frame explicitly represents source admissibility.
+**Context Is Not Control: Source-Boundary Failures in Controlled Text-Mediated Evidence Use**
 
 ## Contents
 
