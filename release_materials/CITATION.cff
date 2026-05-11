@@ -6,6 +6,7 @@ authors:
     given-names: "Ryan"
 date-released: "2026-05-11"
 version: "0.6"
+doi: "10.5281/zenodo.20126173"
 type: article
 keywords:
   - large language models
