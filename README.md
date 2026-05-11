@@ -25,7 +25,3 @@ Full archives with raw/heavy model-output files are preserved separately.
 ## Status
 
 Public working manuscript / preprint draft. Results and artifact organization may be updated in later versions.
-
-## DOI
-https://doi.org/10.5281/zenodo.20126173
-#
