@@ -1,11 +1,14 @@
 Title:
 Context Is Not Control: Source-Boundary Failures in LLM Evidence Use
 
+DOI:
+https://doi.org/10.5281/zenodo.20126173
+
 Resource type:
 Publication
 
 Creators:
-Ryan Sabouhi / Symbolic Suite LLC
+Ryan Sabouhi / Symbolic Suite
 
 Description:
 Public working manuscript and cleaned replication artifacts for “Context Is Not Control,” a controlled benchmark study of source-boundary failures in LLM evidence use. The release includes the manuscript PDF, a cleaned open-weight replication package, and a cleaned frontier/API replication package. Lite packages exclude raw/heavy model-output files; full archives are preserved separately.
