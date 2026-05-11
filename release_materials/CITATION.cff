@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata from this file."
+title: "Context Is Not Control: Source-Boundary Failures in LLM Evidence Use"
+authors:
+  - family-names: "Sabouhi"
+    given-names: "Ryan"
+date-released: "2026-05-11"
+version: "0.6"
+type: article
+keywords:
+  - large language models
+  - hallucination
+  - source boundaries
+  - retrieval-augmented generation
+  - prompt injection
+  - context window
+  - model evaluation
+  - AI safety
+  - interpretability
+  - benchmark

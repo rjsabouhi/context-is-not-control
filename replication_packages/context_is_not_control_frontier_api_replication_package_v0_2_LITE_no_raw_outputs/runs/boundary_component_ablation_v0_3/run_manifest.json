@@ -1,0 +1,54 @@
+{
+  "run_name": "openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143",
+  "created_at_utc": "2026-05-09T04:49:29.674357+00:00",
+  "purpose": "Full unsupported-row frontier boundary-component ablation for source-boundary/admissibility failure.",
+  "design": {
+    "families": [
+      "newer_vs_older_memory",
+      "current_vs_archived_policy",
+      "current_vs_old_software_docs"
+    ],
+    "unsupported_scenarios": [
+      "unsupported_filler_only",
+      "unsupported_filler_with_correct_answer_injection",
+      "unsupported_filler_with_distractor_answer_injection",
+      "unsupported_contaminant_only",
+      "unsupported_contaminant_with_fake_system",
+      "unsupported_json_only_no_source_fact"
+    ],
+    "prompt_policies": [
+      "original_mc",
+      "choices_not_evidence_only",
+      "source_id_only",
+      "admissibility_rule_only",
+      "selected_status_only",
+      "full_boundary_wrapper"
+    ],
+    "n_base_trials": 360,
+    "n_prompt_rows": 2160,
+    "models": {
+      "openai_frontier": "openai/gpt-5.1",
+      "anthropic_frontier": "anthropic/claude-sonnet-4.6",
+      "google_frontier": "google/gemini-3.1-pro-preview"
+    },
+    "total_planned_calls": 6480,
+    "render_mode_used": "raw",
+    "temperature": 0,
+    "max_tokens": 180
+  },
+  "paths": {
+    "run_dir": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143",
+    "base_trials": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/base_trial_rows.csv",
+    "expanded_prompt_rows": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/expanded_prompt_rows.csv",
+    "prompt_previews_first_120": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/prompt_previews_first_120.md",
+    "raw_outputs_jsonl": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/raw_outputs.jsonl",
+    "scored_outputs_csv": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/scored_outputs.csv",
+    "summary_by_model_and_prompt_policy": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/summary_by_model_and_prompt_policy.csv",
+    "summary_by_scenario_and_policy": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/summary_by_scenario_and_policy.csv",
+    "summary_by_family_and_policy": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/summary_by_family_and_policy.csv",
+    "component_lift_vs_original": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/component_lift_vs_original.csv",
+    "failure_examples": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/failure_examples.csv",
+    "paired_policy_admissibility_correctness": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/paired_policy_admissibility_correctness.csv",
+    "openrouter_model_list_snapshot": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_boundary_component_ablation_v0_3/openrouter_frontier_boundary_component_ablation_v0_3_20260509_000143/openrouter_model_list_snapshot.json"
+  }
+}

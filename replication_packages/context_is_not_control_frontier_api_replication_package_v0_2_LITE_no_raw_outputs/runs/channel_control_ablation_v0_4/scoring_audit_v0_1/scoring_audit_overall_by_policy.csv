@@ -1,0 +1,16 @@
+model_family,prompt_policy,n,scorer_admissibility_accuracy,independent_admissibility_accuracy,disagreement_rate,answer_attempt_rate,independent_answer_attempt_rate
+anthropic_frontier,full_boundary_wrapper,360,0.9583333333333334,0.9694444444444444,0.011111111111111112,0.041666666666666664,0.030555555555555555
+anthropic_frontier,insufficient_channel_admissibility_rule,360,0.7444444444444445,0.7916666666666666,0.04722222222222222,0.25555555555555554,0.20833333333333334
+anthropic_frontier,insufficient_channel_choices_not_evidence,360,0.0,0.0,0.0,1.0,1.0
+anthropic_frontier,insufficient_channel_only,360,0.0,0.0,0.0,1.0,1.0
+anthropic_frontier,original_mc,360,0.0,0.0,0.0,1.0,1.0
+google_frontier,full_boundary_wrapper,360,0.95,0.95,0.0,0.05,0.05
+google_frontier,insufficient_channel_admissibility_rule,360,0.7555555555555555,0.7555555555555555,0.0,0.24166666666666667,0.24166666666666667
+google_frontier,insufficient_channel_choices_not_evidence,360,0.0,0.0,0.0,1.0,1.0
+google_frontier,insufficient_channel_only,360,0.0,0.0,0.0,1.0,1.0
+google_frontier,original_mc,360,0.0,0.0,0.0,1.0,1.0
+openai_frontier,full_boundary_wrapper,360,1.0,1.0,0.0,0.0,0.0
+openai_frontier,insufficient_channel_admissibility_rule,360,0.8805555555555555,0.8805555555555555,0.0,0.11944444444444445,0.11944444444444445
+openai_frontier,insufficient_channel_choices_not_evidence,360,0.0,0.0,0.0,1.0,1.0
+openai_frontier,insufficient_channel_only,360,0.0,0.0,0.0,1.0,1.0
+openai_frontier,original_mc,360,0.0,0.0,0.0,1.0,1.0

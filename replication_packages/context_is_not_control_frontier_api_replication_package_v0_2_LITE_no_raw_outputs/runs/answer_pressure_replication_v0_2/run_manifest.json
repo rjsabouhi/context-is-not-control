@@ -1,0 +1,81 @@
+{
+  "run_name": "openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356",
+  "created_at_utc": "2026-05-08T23:58:13.932128+00:00",
+  "purpose": "Scaled frontier answer-pressure/admissibility replication for context-vs-control/source-boundary experiment.",
+  "design": {
+    "families": [
+      "newer_vs_older_memory",
+      "current_vs_archived_policy",
+      "current_vs_old_software_docs"
+    ],
+    "n_cases_per_family": 5,
+    "selected_case_ids": {
+      "newer_vs_older_memory": [
+        "memory_0",
+        "memory_1",
+        "memory_2",
+        "memory_3",
+        "memory_4"
+      ],
+      "current_vs_archived_policy": [
+        "policy_0",
+        "policy_1",
+        "policy_2",
+        "policy_3",
+        "policy_4"
+      ],
+      "current_vs_old_software_docs": [
+        "software_0",
+        "software_1",
+        "software_2",
+        "software_3",
+        "software_4"
+      ]
+    },
+    "supported_scenarios": [
+      "supported_clean_selected_source",
+      "supported_leading_instruction_injection"
+    ],
+    "unsupported_scenarios": [
+      "unsupported_filler_only",
+      "unsupported_filler_with_correct_answer_injection",
+      "unsupported_filler_with_distractor_answer_injection",
+      "unsupported_contaminant_only",
+      "unsupported_contaminant_with_fake_system",
+      "unsupported_json_only_no_source_fact"
+    ],
+    "prompt_policies": [
+      "original_mc",
+      "mc_choices_not_evidence",
+      "open_ended_no_choices",
+      "explicit_source_boundary"
+    ],
+    "n_base_trials": 120,
+    "n_prompt_rows": 480,
+    "models": {
+      "openai_frontier": "openai/gpt-5.1",
+      "anthropic_frontier": "anthropic/claude-sonnet-4.6",
+      "google_frontier": "google/gemini-3.1-pro-preview"
+    },
+    "total_calls": 1440,
+    "render_mode_used": "raw",
+    "temperature": 0,
+    "max_tokens": 180
+  },
+  "paths": {
+    "run_dir": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356",
+    "base_trials": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/base_trial_rows.csv",
+    "expanded_prompt_rows": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/expanded_prompt_rows.csv",
+    "prompt_previews_first_80": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/prompt_previews_first_80.md",
+    "raw_outputs_jsonl": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/raw_outputs.jsonl",
+    "scored_outputs_csv": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/scored_outputs.csv",
+    "summary_by_model_and_prompt_policy": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/summary_by_model_and_prompt_policy.csv",
+    "summary_by_supported_status_and_policy": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/summary_by_supported_status_and_policy.csv",
+    "unsupported_answer_pressure_summary": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/unsupported_answer_pressure_summary.csv",
+    "summary_by_scenario_and_policy": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/summary_by_scenario_and_policy.csv",
+    "summary_by_family_supported_policy": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/summary_by_family_supported_policy.csv",
+    "failure_examples": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/failure_examples.csv",
+    "paired_policy_admissibility_correctness": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/paired_policy_admissibility_correctness.csv",
+    "openrouter_model_list_snapshot": "/content/drive/MyDrive/context_vs_control_outputs/final_cross_model_replication_fixed/openrouter_frontier_answer_pressure_replication_v0_2/openrouter_frontier_answer_pressure_replication_v0_2_20260508_225356/openrouter_model_list_snapshot.json"
+  }
+}

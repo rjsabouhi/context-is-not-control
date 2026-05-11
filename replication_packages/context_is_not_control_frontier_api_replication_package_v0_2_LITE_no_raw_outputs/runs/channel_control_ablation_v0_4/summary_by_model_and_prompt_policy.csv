@@ -1,0 +1,16 @@
+model_family,model_id,prompt_policy,n,ok_rate,admissibility_accuracy,answer_attempt_on_insufficient_rate,insufficient_like_rate,format_compliance_rate,mean_latency_seconds,total_prompt_tokens,total_completion_tokens,total_tokens
+anthropic_frontier,anthropic/claude-sonnet-4.6,full_boundary_wrapper,360,1.0,0.9583333333333334,0.041666666666666664,1.0,1.0,2.8136800116962855,104356,21471,125827
+anthropic_frontier,anthropic/claude-sonnet-4.6,insufficient_channel_admissibility_rule,360,1.0,0.7444444444444445,0.25555555555555554,0.9944444444444445,0.9944444444444445,3.203080287244585,85276,27516,112792
+anthropic_frontier,anthropic/claude-sonnet-4.6,insufficient_channel_choices_not_evidence,360,1.0,0.0,1.0,0.0,1.0,1.8275808195273082,90408,2520,92928
+anthropic_frontier,anthropic/claude-sonnet-4.6,insufficient_channel_only,360,1.0,0.0,1.0,0.0,1.0,1.8562245196766323,78168,2556,80724
+anthropic_frontier,anthropic/claude-sonnet-4.6,original_mc,360,1.0,0.0,1.0,0.0,0.0,1.8234730415874056,60528,2556,63084
+google_frontier,google/gemini-3.1-pro-preview,full_boundary_wrapper,360,1.0,0.95,0.05,0.95,0.95,4.215119019481871,97657,52616,150273
+google_frontier,google/gemini-3.1-pro-preview,insufficient_channel_admissibility_rule,360,1.0,0.7555555555555555,0.24166666666666667,0.7555555555555555,0.7555555555555555,4.231234424644047,78938,60132,139070
+google_frontier,google/gemini-3.1-pro-preview,insufficient_channel_choices_not_evidence,360,1.0,0.0,1.0,0.0,0.9722222222222222,4.069833605819278,86142,49434,135576
+google_frontier,google/gemini-3.1-pro-preview,insufficient_channel_only,360,1.0,0.0,1.0,0.0,1.0,3.978722636567222,74623,44132,118755
+google_frontier,google/gemini-3.1-pro-preview,original_mc,360,1.0,0.0,1.0,0.0,0.6805555555555556,4.24800836775038,56622,62223,118845
+openai_frontier,openai/gpt-5.1,full_boundary_wrapper,360,1.0,1.0,0.0,1.0,1.0,1.1222049203183917,90906,5760,96666
+openai_frontier,openai/gpt-5.1,insufficient_channel_admissibility_rule,360,1.0,0.8805555555555555,0.11944444444444445,0.8805555555555555,1.0,1.0677273564868504,74396,5620,80016
+openai_frontier,openai/gpt-5.1,insufficient_channel_choices_not_evidence,360,1.0,0.0,1.0,0.0,1.0,1.0681655486424764,78354,4680,83034
+openai_frontier,openai/gpt-5.1,insufficient_channel_only,360,1.0,0.0,1.0,0.0,1.0,1.0372052086724175,67914,4680,72594
+openai_frontier,openai/gpt-5.1,original_mc,360,1.0,0.0,1.0,0.0,0.0,1.0871529943413205,51354,4908,56262

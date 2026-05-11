@@ -1,0 +1,10 @@
+run_key,role,required,source_subdir,found
+evidence_package_v0_4_1_preserved_scoring,Canonical seven-model multiple-choice cross-model evidence package preserving original scoring.,True,evidence_package_v0_4_1_preserved_scoring,True
+open_ended_generation_v0_1,Initial open-ended generation test; establishes transition beyond multiple choice.,False,open_ended_generation_v0_1,True
+open_ended_generation_v0_2_role_aware_fact_only,Role-aware fact-only open-ended test; documents early over-refusal behavior.,False,open_ended_generation_v0_2_role_aware_fact_only,True
+open_ended_generation_v0_3_cross_model_package,Canonical open-ended cross-model package using naturalized fact-only rendering.,True,open_ended_generation_v0_3_cross_model_package,True
+open_ended_generation_v0_3_naturalized_fact_only,Naturalized fact-only open-ended generation artifacts.,False,open_ended_generation_v0_3_naturalized_fact_only,True
+open_ended_generation_v0_4_qwen_wording_ablation,Qwen wording ablation testing whether failures depend on boundary wording.,True,open_ended_generation_v0_4_qwen_wording_ablation,True
+open_ended_generation_v0_5_boundary_wrapper_ablation,Qwen boundary-wrapper ablation isolating source-boundary components.,True,open_ended_generation_v0_5_boundary_wrapper_ablation,True
+open_ended_generation_v0_5_boundary_wrapper_ablation_mistral_nemo,"Mistral-Nemo boundary-wrapper follow-up artifacts, copied if present.",False,open_ended_generation_v0_5_boundary_wrapper_ablation_mistral_nemo,True
+source_attribution_fidelity_v0_1,"Supplementary source-attribution fidelity artifacts, copied if present.",False,source_attribution_fidelity_v0_1,True
